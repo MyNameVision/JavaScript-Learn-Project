@@ -31,4 +31,32 @@ do{
     process.stdout.write(num + " ");
     num++;
 }while(+num<10);
+console.log();
 
+
+// Star pattern using for loop
+for(let i = 1; i <= 5; i++) {
+
+    for(let j = 1; j <= i; j++) {
+        process.stdout.write("* ");
+    }
+
+    console.log();
+}
+
+
+// for ...of loop
+let fruits = ["Apple", "Banana", "Cherry"];
+for(let fruit of fruits){
+  process.stdout.write(fruit + " ");
+}
+    console.log();
+
+// for ...in loop
+let student = {
+    name: "Sitaram Kadam",
+    age: 24
+};
+for(let key in student){
+  console.log(key + ": " + student[key]);
+}   
