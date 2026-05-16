@@ -1,3 +1,18 @@
+// PrimitiveData Types in JavaScript
+//int
+//boolean
+//String
+//undefined
+//null
+//BigInt
+//Symbol
+
+// Non-primitive data types in JavaScript
+// Object
+// Function
+// Array    
+
+
 // Primitive Data Types
 let name = "Sitaram";
 let age = 24;
